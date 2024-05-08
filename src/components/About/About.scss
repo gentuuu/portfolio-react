@@ -1,0 +1,35 @@
+@import './../../styles.scss';
+
+.about{
+    padding: 50px 0;
+    background-color: rgb(249 250 251);
+    &-row{
+        display: flex;
+        padding: 50px 0;
+        @include breakpoint(tab-port){
+            flex-direction: column;
+        }
+    }
+    &__img{
+        width: 50%;
+        @include breakpoint(tab-port){
+            width: 100%;
+        }
+        & img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            max-height: 400px;
+        }
+    }
+    &__text{
+        width: 50%;
+        @include breakpoint(tab-port){
+            width: 100%;
+        }
+    }
+}
+
+.dark .about{
+    background-color: rgb(3 7 18);
+}

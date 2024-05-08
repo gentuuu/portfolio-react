@@ -1,0 +1,51 @@
+@import './../../styles.scss';
+
+.footer{
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgb(249 250 251);
+    & .email{
+        margin: 15px 0;
+        font-size: 36px;
+        font-weight: 500;
+        color: rgb(17 24 39);
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        @include breakpoint(tab-port){
+            font-size: 20px;
+        }
+        & svg{
+            margin-right: 25px;
+        }
+    }
+}
+
+.dark .footer{
+    background-color: rgb(3 7 18);
+    &-item{
+        background-color: rgb(55 65 81);
+        &__date{
+            color: #fff;
+        }
+        &__text{
+            color: #fff;
+        }
+    }
+    & .email{
+        color: #fff;
+    }
+    & .header-social__item{
+        & svg{
+            color: #fff;
+        }
+        &:hover{
+            background-color: rgb(17, 24, 39);
+        }
+    }
+    
+    
+    
+}
