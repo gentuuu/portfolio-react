@@ -179,6 +179,34 @@ export const ProjectData = [
             "SEO",
         ]
     },
+    {
+        cover: "../../assets/img/przepisyhome.png",
+        title: "Przepisy i diety",
+        text: "Strona na temat zdrowego odżywiania z przepisami i dietami",
+        link: "https://github.com/gentuuu/React-strapi-przepisy-dieta-graphql",
+        skills: [
+            "HTML",
+            "CSS(SASS)",
+            "JavaScript",
+            "React JS",
+            "CMS Strapi",
+            "GraphQL"
+        ]
+    },
+    {
+        cover: "../../assets/img/hotelhome.png",
+        title: "Hotel",
+        text: "Strona hotelu",
+        link: "https://github.com/gentuuu/React-strapi-hotel-page-graphql",
+        skills: [
+            "HTML",
+            "CSS(SASS)",
+            "JavaScript",
+            "React JS",
+            "CMS Strapi",
+            "GraphQL"
+        ]
+    },
     // {
     //     cover: "../../assets/img/miodownik1.png",
     //     title: "Cogito",
